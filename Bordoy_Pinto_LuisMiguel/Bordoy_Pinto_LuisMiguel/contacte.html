@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contacta creador buscaminas">
+    <meta name="author" content="Luis Miguel Bordoy Pinto">
+    <link rel="stylesheet" href="css/contacte.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo buscaminas">
+        <nav>
+            <a href="joc.html">Juego</a>
+            <a href="quisom.html">Quienes somos?</a>
+            <a href="ajuda.html">Ayuda</a>
+            <a href="contacte.html">Contacto</a>
+            <a href="configuracio.html">Configuracion</a>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        </nav>
+    </header>
+    <main>
+        <div></div>
+        <form action="contacte.html" method="post">
+            
+            <h2>Formulario de Contacto</h2>
+            <div>
+                <label for="Nombre">Nombre <br></label>
+                <input type="text" name="Nombre" id="Nombre" >
+            </div>
+            <div>
+                <label for="apellido1">Primer apellido <br></label>
+                <input type="text" name="apellido1" id="apellido1" >
+            </div>
+            <div>
+                <label for="apellido2">Segundo apellido <br></label>
+                <input type="text" name="apellido2" id="apellido2" >
+            </div>
+            <div>
+                <label for="correo">correo <br></label>
+                <input type="email" name="correo" id="correo" >
+            </div>
+            <div>
+                <label for="motivo">Motivo <br></label>
+                <select name="motivo" id="motivo">
+                    <option value="1">Motivo personal</option>
+                    <option value="2">Motivo profesional</option>
+                </select>
+            </div>
+            <div>
+                <label for="mensaje">Mensaje <br></label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="TYC">Acepto los terminos y condiciones de la pagina web</label>
+                <input type="checkbox" required name="TYC" id="TYC">
+                <input type="submit" value="Enviar">
+            </div>
+           
+        </form>
+    </main>
+    <footer>
+        <footer>
+            <div>
+                
+                    <a href=""><img src="img/logoinstagram.png" alt="logo Instagram"><p>Instagram</p></a>
+                    <a href=""><img src="img/logofacebook.png" alt="logo Facebook"><p>Facebook</p></a>
+                    <a href=""><img src="img/logotwitter.png" alt="logo Twitter"><p>Twitter</p></a>
+                    <a href=""><img src="img/logopinterest.png" alt="logo Pinterest"><p>Pinterest</p></a>
+            
+            </div>
+        </footer>
+    </footer>
+</body>
+</html>
